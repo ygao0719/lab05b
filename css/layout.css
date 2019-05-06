@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.header {
+ flex: 1 100%;
+ background-color: rgb(255, 51, 0);
+ line-height: 100px;
+}
+
+.side-bar {
+  flex: 1 20.83%;
+  line-height: 600px;
+  margin: 0px;
+  background-color: rgb(226, 192, 43);
+}
+.content {
+flex: 1 79.17%;
+}
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c, .d {
+  width:50%;
+  line-height: 200px;
+}
+.c {
+  background-color: rgb(81, 255, 0);
+}
+.d {
+  background-color: rgb(0, 255, 242);
+}
+.e, .f, .g, .h {
+  width: 25%;
+  line-height: 250px;
+}
+.e {
+  background-color: rgb(127, 193, 255);
+}
+.f {
+  background-color: rgb(38, 22, 97);
+}
+.g {
+  background-color: rgb(38, 0, 255);
+}
+.h {
+  background-color: rgb(196, 47, 255);
+}
+
+.footer {
+  line-height: 150px;
+  background-color: rgb(235, 55, 220);
+}
+

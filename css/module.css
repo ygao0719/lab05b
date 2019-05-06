@@ -1,0 +1,87 @@
+/* Tablet view */
+@media only screen and (min-width: 560px) and (max-width: 960px) {
+  .header {
+    flex: 1 100%;
+    line-height: 75px;
+    background-color: rgb(251, 197, 152);
+  }
+  .side-bar {
+    flex: 1 100%;
+    line-height: 150px;
+    margin: 0px;
+    background-color: rgb(223, 226, 43);
+  }
+  .c {
+    background-color: rgb(0, 255, 76);
+  }
+  .d {
+    background-color: rgb(0, 255, 34);
+  }
+  .e {
+    background-color: rgb(127, 172, 255);
+  }
+  .f {
+    background-color: rgb(57, 22, 97);
+  }
+  .g {
+    background-color: rgb(234, 0, 255);
+  }
+  .h {
+    background-color: rgb(255, 0, 21);
+  }
+}
+
+
+/* Mobile view */
+
+@media only screen and (min-width: 400px) and (max-width: 560px) {
+  .header {
+      flex: 1 100%;
+      line-height: 75px;
+      background-color: rgb(226, 160, 38);
+  }
+  .side-bar {
+      flex: 1 100%;
+      line-height: 150px;
+      margin: 0px;
+      background-color: rgb(93, 99, 17);
+  }
+  .content {
+      flex: 1 100%;
+  }
+  .middle {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .c, .d {
+      width:100%;
+      line-height: 125px;
+  }
+  .e, .f, .g, .h {
+      width: 50%;
+      line-height: 250px;
+  }
+  .c {
+      background-color: rgb(31, 153, 31);
+  }
+  .d {
+      background-color: rgb(21, 255, 0);
+  }
+  .e {
+      background-color: rgb(25, 72, 78);
+  }
+  .f {
+      background-color: rgb(95, 54, 209);
+  }
+  .g {
+      background-color: rgb(78, 20, 145);
+  }
+  .h {
+      background-color: rgb(145, 44, 165);
+  }
+  .footer {
+      line-height: 80px;
+  }
+
+
+}
