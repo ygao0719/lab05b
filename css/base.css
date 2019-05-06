@@ -1,0 +1,10 @@
+
+body {
+  height: 100%;
+  max-width:960px;
+  margin: 0 auto !important;
+}
+div {
+  text-align: center;
+  border-bottom: 0px;
+}
